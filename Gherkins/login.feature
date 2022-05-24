@@ -9,11 +9,11 @@ Funcionalidade: Login
         Dado que esteja na página de login
     
     Esquema de cenário: Efetuar login de usuáios
-        Quando efetuar login através de uma plataforma escolhida
+        Quando efetuar login através de a "<plataforma>" escolhida
         Então login efetuado com sucesso
 
         Exemplos:
-        |plataformas  |
+        |plataforma  |
         |Google       |
         |Facebook     |
         |Twitter      |
