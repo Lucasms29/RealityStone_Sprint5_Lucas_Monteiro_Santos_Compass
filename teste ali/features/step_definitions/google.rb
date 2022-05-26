@@ -15,12 +15,3 @@ Dado('que acesse a home') do
   Então('deverão ser encontrados resultados') do
     expect(page).to have_content 'AliExpress'
   end
-
-  Quando('clicar no link') do
-    find("").click
-  end
-  
-  Então('deverá acessar o site AliExpress') do
-    expect(page).to have_css 'logo-base'
-  end
-   
