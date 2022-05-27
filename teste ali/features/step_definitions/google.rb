@@ -15,3 +15,6 @@ Dado('que acesse a home') do
   Então('deverão ser encontrados resultados') do
     expect(page).to have_content 'AliExpress'
   end
+
+
+  

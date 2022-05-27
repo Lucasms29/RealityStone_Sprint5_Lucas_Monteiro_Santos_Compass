@@ -10,4 +10,3 @@ Cenário: buscar por AliExpress
     Dado que acesse a home
     Quando buscar por "AliExpress"
     Então deverão ser encontrados resultados
-
