@@ -9,6 +9,5 @@ Quando('realizar uma buscar por um produto existente') do
 end
   
 Então('deverão ser retornados resultados na busca') do
-  binding.pry
   expect(@search_results_page).to have_products
 end

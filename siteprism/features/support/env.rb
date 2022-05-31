@@ -25,3 +25,4 @@ end
 
 Capybara.default_driver = :my_chrome
 Capybara.app_host = URL
+Capybara.default_max_wait_time = 10
