@@ -10,6 +10,7 @@ end
   
 Então('deverão ser retornados resultados na busca') do
   expect(@search_results_page).to have_products
+  expect(@search_results_page.products.first.all_there?).to be_thuthy
 end
 
 Quando('bucar pelo produto {string}') do |product|
