@@ -13,6 +13,7 @@ Funcionalidade: Busca
     Cenário: Buscar por um produto existente
         Quando realizar uma buscar por um produto existente
         Então deverão ser retornados resultados na busca
+
     @search_for_different_products
     Esquema do Cenário: Buscar por produtos existentes
         Quando bucar pelo produto "<produto>"
@@ -22,6 +23,6 @@ Funcionalidade: Busca
         |produto   |
         |Speakers  |
         |Tablets   |
-        |leptops   |
-        |Mices     |
+        |Laptops   |
+        |Mice      |
         |Headphones|
