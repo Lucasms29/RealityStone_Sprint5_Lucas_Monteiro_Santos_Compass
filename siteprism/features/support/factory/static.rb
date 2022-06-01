@@ -6,7 +6,7 @@ module Factory
         end
 
         def self.static_data(data)
-            static.load_file[data]
+            Static.load_file[data]
         end
     end
 end
