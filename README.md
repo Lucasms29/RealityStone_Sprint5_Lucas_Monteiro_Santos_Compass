@@ -3,7 +3,7 @@
 
 # Sobre a sprint
 
-Autimação Web com Ruby e Cucumber
+Automação Web com Ruby e Cucumber
 
 # Tecnologia utilizada
 - Ruby
